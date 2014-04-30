@@ -3,7 +3,7 @@ Contributors: bhubbard
 Tags: mediatemple, server, hosting, optimization, grid-service, dv, dedicated-virtual, vps, gs, (mt), Media Temple
 Donate link: http://brandonhubbard.com/
 Requires at least: 3.7.1
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: 1.1.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
