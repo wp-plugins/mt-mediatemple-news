@@ -1,10 +1,10 @@
-=== (mt) Media Temple News ===
+=== (mt) Media Temple for WordPress ===
 Contributors: bhubbard
 Tags: mediatemple, server, hosting, optimization, grid-service, dv, dedicated-virtual, vps, gs, (mt), Media Temple
 Donate link: http://brandonhubbard.com/
 Requires at least: 3.7.1
-Tested up to: 4.2.1
-Stable tag: 1.1.0
+Tested up to: 4.2.2
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

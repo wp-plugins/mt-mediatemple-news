@@ -24,18 +24,8 @@ function custom_dashboard_help() {
 				<input type="submit" class="button button-primary" value="Search"  />
 		  </form>
 
-		  <h4 style="margin-top:5px;font-weight:bold;">Featured Articles</h4>
-		  <hr>
 <?php
 
-	wp_widget_rss_output(array(
-            'url' => 'https://kb.mediatemple.net/rss.php?c=&t=featured',
-            'title' => 'Featured Articles',
-            'items' => 3, //how many posts to show
-            'show_summary' => 1, // 0 = false and 1 = true
-            'show_author' => 0,
-            'show_date' => 1
-       ));
 
 
 }

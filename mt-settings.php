@@ -34,7 +34,16 @@ if ( !empty($mediatemple_apikey) ) {
 
 
 function mediatemple_section_callback() {
-	echo '<p>When configured, this will allow you to view information regarding your (mt) Media Temple service, as well as optimize WordPress for the service.</p>';
+	?>
+
+	<div style="float:right;">
+<a href="http://mediatemple.net#a_aid=4f1cea947bfc1&amp;a_bid=8524a5cd" target="_top" rel="nofollow"><img src="https://affiliate.mediatemple.net/accounts/default1/banners/grid40 250x250.png" alt="" width="300" height="250" /></a><img style="border:0" src="https://affiliate.mediatemple.net/scripts/imp.php?a_aid=4f1cea947bfc1&amp;a_bid=8524a5cd" width="1" height="1" alt="" />
+	</div>
+
+	<div style="float:left;">
+	<p>When configured, this will allow you to view information regarding your (mt) Media Temple service, as well as optimize WordPress for the service.</p>
+
+	<?php
 }
 
 // Field for MediaTemple API Key
@@ -124,6 +133,7 @@ function mediatemple_settings_page() { ?>
 
         </form>
     </div>
+	</div>
     <?php
 }
 

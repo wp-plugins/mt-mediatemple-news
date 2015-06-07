@@ -2,12 +2,12 @@
 
 /*-----------------------------------------------------------------------------------
 
-	Plugin Name: (mt) Media Temple News
-	Version: 1.1.0
-	Plugin URI:
+	Plugin Name: (mt) Media Temple for WordPress
+	Version: 1.1.1
+	Plugin URI: https://brandonhubbard.com/mediatemple-news/
 	Description: Keep up-to-date with (mt) Media Temple from within your Wordpress Blog.
 	Author: Brandon Hubbard
-	Author URI: http://www.brandonhubbard.com
+	Author URI: https://www.brandonhubbard.com
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,7 +35,6 @@ include_once('mt-settings.php');
 
 include_once('mt-optimizer.php');
 
-include_once('presstrends.php');
 
 ################################################################################
 // Plugin Activation
@@ -47,7 +46,7 @@ function mediatemple_activate() {
     global $wpdb;
 
     // PLUGIN VERSION
-    $mediatemple_version = '1.0';
+    $mediatemple_version = '1.1.1';
     add_option( "mediatemple_version", $mediatemple_version );
 
 }
